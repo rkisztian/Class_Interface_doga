@@ -1,5 +1,7 @@
 import { Statue } from "./Statue";
 
+console.log("Kész")
+
 export interface Artwork{
     title : string;
     year : number;

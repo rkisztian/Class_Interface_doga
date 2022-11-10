@@ -2,6 +2,7 @@
 var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
 const Statue_1 = require("./Statue");
+console.log("Kész");
 let szobrok = [];
 (_a = document.getElementById('felvesz')) === null || _a === void 0 ? void 0 : _a.addEventListener('click', () => {
     let szoborNev = document.getElementById('szobornev');
