@@ -1,1 +1,1 @@
-(()=>{"use strict";Object.defineProperty(exports,"__esModule",{value:!0})})();
+(()=>{"use strict";var e;Object.defineProperty(exports,"__esModule",{value:!0}),null===(e=document.getElementById("felvesz"))||void 0===e||e.addEventListener("click",(()=>{let e=!1;e=""!=document.getElementById("szobornev").value;let t=document.getElementById("keszitesiEv"),l=!1;l=parseInt(t.value)<=2022;let n=document.getElementById("ar"),d=!1;parseInt(n.value)>=1||(l=!1),document.getElementById("magassag")}))})();
