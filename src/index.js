@@ -46,4 +46,9 @@ let szobrok = [];
         kikialtasiAr.value = "";
         szoborMagassag.value = "";
     }
+    let db = 0;
+    for (let i = 0; i < szobrok.length; i++) {
+        db++;
+    }
+    document.getElementById('darabszam').textContent = String(db);
 });

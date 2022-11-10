@@ -4,6 +4,7 @@ export interface Artwork{
     title : string;
     year : number;
     price : number;
+
 }
 
 
@@ -59,6 +60,12 @@ document.getElementById('felvesz')?.addEventListener('click', ()=>{
         kikialtasiAr.value = "";
         szoborMagassag.value = "";
     }
+
+    let db = 0;
+    for(let i = 0; i < szobrok.length; i++){
+        db++;
+    }
+    (document.getElementById('darabszam') as HTMLElement).textContent = String(db);
 
 
 })
